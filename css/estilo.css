@@ -1,0 +1,32 @@
+div{
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+}
+img{
+    width: 299px;
+}
+.button{
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 25px;
+}
+.contenedor{
+    display: flex;
+
+}
+.central > div{
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.central {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
