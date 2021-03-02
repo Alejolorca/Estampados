@@ -21,12 +21,16 @@ img{
 .central > div{
     width: 300px;
     height: 400px;
-    margin: 20px;
-    margin-top: 50px;
+    margin-left: calc((100% - 120px) /20);
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
 }
 .central {
+    
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
     
 }
