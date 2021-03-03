@@ -1,12 +1,22 @@
-div{
-    border: 1px solid black;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+/*div{
+    border: 1px solid black;
+}*/
+
 h2{
     text-align: center;
 }
+
 img{
     width: 299px;
 }
+
 .button{
     background-color: greenyellow;
     border: none;
@@ -33,4 +43,90 @@ img{
     flex-direction: row;
     justify-content: center;
     
+}
+
+/*Solo para footer*/
+footer{
+    background: #202020;
+    width: 100%;
+    color: white;
+    padding: 40px;
+}
+
+.contenedor_footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em; /*Separa columnas--propiedad de Flex*/
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contenedor_footer >div>h1{
+    font-size: 22px;
+}
+
+.columna1{
+    max-width: 400px;
+}
+
+.columna1 > p{
+    font-size: 16px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.columna2{
+    max-width: 400px;
+}
+
+.fila{
+    margin-top: 20px;
+    display: flex;
+}
+
+.fila > img{
+    width: 35px;
+    height: 35px;
+}
+
+.fila > label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.columna3{
+    max-width: 500px;
+}
+
+.fila2{
+    margin-top: 20px;
+    display: flex;
+    height: 30px;
+}
+
+.fila2 > img{
+    background-color: rgb(82, 62, 136);
+    width: 35px;
+    height: 35px;
+}
+
+.fila2 > label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.copyright{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #C7C7C7;
+    text-align: center;
+    width: 100%;
+}
+
+.copyright>span>a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
 }
