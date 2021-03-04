@@ -1,0 +1,59 @@
+.informacion{
+    display: flex;
+    justify-content: center;
+    flex-wrap:inherit;
+}
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(/img/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.columna1 > p{
+    color: black;
+    font: 20px "Comic Sans MS";
+
+}
+
+h2{
+    text-align: left;
+}
+.columna1{
+    margin-right: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.columna1 p{
+    width: 600px;
+    margin-bottom: 50px;
+}
+
+.columna2{
+    margin-right: auto;
+    margin-top: 40px;
+    margin-left: -120px;
+}
+.polerah {
+    width: 700px;
+    height: 346px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+.poleran{
+    width: 700px;
+    height: 346px;
+    margin-top: 30px;
+}
+.poleram{
+    width: 700px;
+    height: 216px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
