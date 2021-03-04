@@ -48,6 +48,7 @@ nav{
     display: flex;
     justify-content: start;
     
+    
 }
 
 .links>a{
@@ -59,6 +60,7 @@ nav{
     padding: 10px 50px;
     border-bottom: 5px solid transparent;
     transition: border .3s ease;/* en este caso solo se aplicara al borde*/
+    
 }
 
 .links>a:hover{
