@@ -265,3 +265,22 @@ footer{
         width: 100%;
     }
 }
+@media (max-width: 786px){
+    .h1{
+        display: none;
+    }
+    .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        margin: auto;
+        margin-left: 30%;
+    }
+    .logo > img{
+        width: 218px;
+        height: 195px;
+
+    }
+}
